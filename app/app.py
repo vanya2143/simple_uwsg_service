@@ -28,7 +28,6 @@ def paired_with_dict(environ, start_response):
             request_body_size = 0
 
         request_body = environ['wsgi.input'].read(request_body_size)
-
         response = 'Post data'
     else:
         response = 'Get data'
