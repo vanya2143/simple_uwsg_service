@@ -4,7 +4,7 @@ Python 3.10
 ## Run
 ### Local
 1. Clone project
-2. Go to project directory`cd project_path`
+2. Go to project directory `cd project_path`
 3. Create env `python -m venv ./venv`
 4. Activate environment `source venv/bin/activate`
 5. Install requirements `pip install -r requirements.txt`
