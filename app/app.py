@@ -55,7 +55,7 @@ class Application:
         return ['404 Not Found']
 
     def __call__(self, environ, start_response):
-        handler = self.routes.get(environ.get('PATH_INFO', '').rstrip('/')) or self.not_found
+        handler = self.routes.get(environ.get('PATH_INFO')) or self.not_found
         return handler(environ, start_response)
 
 
