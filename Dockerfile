@@ -12,4 +12,4 @@ RUN pip install --no-cache-dir --upgrade pip && \
 
 EXPOSE 8080
 
-CMD ["uwsgi", "--ini", "uwsgi.ini", "--chdir", "/usr/src/app"]
+CMD ["uwsgi", "--ini", "uwsgi.ini"]
