@@ -16,7 +16,7 @@ def app_fixture():
 def test_sum_of_two(app_fixture):
     app = app_fixture()
     client = Client(app)
-    base_url = '/sum_of_two/'
+    base_url = '/sum_of_two'
 
     response = client.get(base_url)
     assert response.status_code == 200
