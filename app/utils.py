@@ -11,7 +11,7 @@ For example
 
 def sum_of_two(arr: list) -> bool:
     for i in range(len(arr[:-1])):
-        for j in range(len(arr[i-1:-1])):
+        for j in range(len(arr[i - 1:-1])):
             if arr[i] + arr[j] == arr[-1]:
                 return True
     return False
