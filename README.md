@@ -16,7 +16,7 @@ Python 3.10
 3. Now you can open in web browser http://127.0.0.1:8080
 
 ## urls
-### sum of two
+### /sum_of_two
 method: GET
 
 /sum_of_two accepting array of integers of any size using GET parameters.
