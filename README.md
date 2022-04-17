@@ -19,7 +19,7 @@ Python 3.10
 ### /sum_of_two
 method: GET
 
-/sum_of_two accepting array of integers of any size using GET parameters.
+Accepting array of integers of any size using GET parameters.
 Response of this function can be true only if sum of any two parameters equals the last one.
 For example
 ```python
