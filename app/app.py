@@ -37,9 +37,9 @@ def paired_with_dict(environ, start_response):
             request_body_size = 0
 
         request_body = environ['wsgi.input'].read(request_body_size)
-        response = 'Post data'
+        response = {'method': 'post', 'response_text': 'to be continued'}
     else:
-        response = 'Get data'
+        response = {'method': 'get', 'response_text': 'to be continued'}
 
     status = '200 OK'
     response_headers = [
